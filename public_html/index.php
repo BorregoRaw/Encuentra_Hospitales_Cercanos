@@ -41,7 +41,7 @@
       <a href="signup.php">Registrate</a>
       
       
-      <h2>testeando git</h2>
+      <h2>itesa</h2>
     <?php endif; ?>
     
 
