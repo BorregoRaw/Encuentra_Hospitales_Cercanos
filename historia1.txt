@@ -1,0 +1,79 @@
+    1  pwd
+    2  cd ..
+    3  cd ..
+    4  ls
+    5  pwd
+    6  cd
+    7  cd ..
+    8  ls
+    9  cd C:\xampp2\htdocs\nube
+   10  ls
+   11  cd \xampp2\htdocs\nube
+   12  cd ..
+   13  ls
+   14  cd xampp2/
+   15  cd htdocs/
+   16  cd nube
+   17  ls
+   18  clear
+   19  git init
+   20  git status
+   21  git add .
+   22  git status
+   23  git commit 
+   24  git commit -m "Primer Commit"
+   25  git config --global user.email "jesusordonez997@gmail.com"
+   26  git config --global user.name "BorregoRaw"
+   27  git commit -m "Primer Commit"
+   28  git status 
+   29  git remote add origin https://github.com/BorregoRaw/Encuentra_Hospitales_Cercanos.git
+   30  git push -u origin master
+   31  curl https://raw.githubusercontent.com/git-ftp/git-ftp/master/git-ftp > /bin/git-ftp
+   32  sudo su
+   33  sudo curl https://raw.githubusercontent.com/git-ftp/git-ftp/master/git-ftp > /bin/git-ftp
+   34  su curl https://raw.githubusercontent.com/git-ftp/git-ftp/master/git-ftp > /bin/git-ftp
+   35  curl https://raw.githubusercontent.com/git-ftp/git-ftp/master/git-ftp > /bin/git-ftp
+   36  chmod 755 /bin/git-ftp
+   37  cd ..
+   38  cd ..
+   39  cd ..
+   40  pwd
+   41  ls
+   42  cd ..
+   43  pwd
+   44  cd ..
+   45  cd ..
+   46  cd ..
+   47  pwd
+   48  ls
+   49  cd ..
+   50  pwd
+   51  cd c
+   52  pwd
+   53  ls
+   54  cd xampp
+   55  cd ..
+   56  cd xampp2
+   57  cd htdocs/
+   58  cd nube
+   59  ls
+   60  git config git-ftp.url "files.000webhost.com"
+   61  git config git-ftp.user "encuentrahospitalescercanos"
+   62  git config git-ftp.password "borrego007"
+   63  git ftp init
+   64* 
+   65  git ftp catchup
+   66  git ftp push
+   67  git status
+   68  git ftp init
+   69  git ftp catchup
+   70  git ftp push
+   71  git commit 
+   72  git commit 
+   73  git add .
+   74  git commit -m "test 000"
+   75  git ftp push
+   76  git ftp push
+   77  git ftp push
+   78  history 
+   79  history >> historia1.txt
