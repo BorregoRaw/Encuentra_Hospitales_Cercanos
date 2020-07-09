@@ -59,7 +59,7 @@
    59  ls
    60  git config git-ftp.url "files.000webhost.com"
    61  git config git-ftp.user "encuentrahospitalescercanos"
-   62  git config git-ftp.password "borrego007"
+   62  git config git-ftp.password ""
    63  git ftp init
    64* 
    65  git ftp catchup
