@@ -41,7 +41,7 @@
       <a href="signup.php">Registrate</a>
       
       
-      <h2>A continuacion se muestran los hospitales cerca de ti</h2>
+      <h2>testeando git</h2>
     <?php endif; ?>
     
 
