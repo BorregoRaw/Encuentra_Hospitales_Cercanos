@@ -21,7 +21,7 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title>Welcome</title>
+    <title>Bienvenido</title>
     <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
     <link rel="stylesheet" href="assets/css/style.css"> 
   </head>
@@ -29,7 +29,7 @@
     <?php require 'partials/header.php' ?>
 
     <?php if(!empty($user)): ?>
-      <br> Welcome. <?= $user['email']; ?>
+      <br> Bienvenido. <?= $user['email']; ?>
       <br>Has iniciado sesión correctamente
       <a href="logout.php">
         Salir
@@ -54,6 +54,17 @@
         <p>Ademas de que cada hospital pude mostrar los servicios que puede ofrecer y para los que esta equipado, esto basado en el sistema de atencion TRIAGE por el Instituto Mexicano del Seguro Social</p>
 
       </div>
+
+      <img src="img/semaforo.jpg">
+
+      <div style="color: #000; font-style: italic">
+
+        <p>Se puede observar que existen diferentes tipos de atencion, dependiendo de la gravedad y situacion en la que se encuentre el solicitante del servicio, es por ello que cada hospital o centro de atencion medica puede ofrecer distinta atencion.</p>
+
+        
+
+      </div>      
+
 
   </body>
 </html>

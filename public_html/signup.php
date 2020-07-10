@@ -5,6 +5,38 @@
   $message = '';
 
   if (!empty($_POST['email']) && !empty($_POST['password'])) {
+
+    //va
+    $records = $conn->prepare('SELECT  email FROM users WHERE email = :email');
+    $records->bindParam(':email', $_POST['email']);
+    $records->execute();
+    $results = $records->fetch(PDO::FETCH_ASSOC);
+
+    
+
+    if ($results != null) {
+      //$user = $results;
+
+      echo '<script>
+      alert("usuario ya existente");
+      </script>';
+      ///////$sql = "UPDATE infohospitales SET nombre = :nombre, tipoServicio = :tipoServicio, direccion = :direccion , cupo = :cupo WHERE clues = :clues";
+    } else {
+      $sql = "INSERT INTO users (email, password) VALUES (:email, :password)";
+    $stmt = $conn->prepare($sql);
+    $stmt->bindParam(':email', $_POST['email']);
+    $password = password_hash($_POST['password'], PASSWORD_BCRYPT);
+    $stmt->bindParam(':password', $password);
+
+    if ($stmt->execute()) {
+      $message = 'Usuario Creado correctamente';
+    } else {
+      $message = 'Lo sentimos, debe haber habido un problema al crear su cuenta';
+    }
+
+    }
+    //va
+    /*
     $sql = "INSERT INTO users (email, password) VALUES (:email, :password)";
     $stmt = $conn->prepare($sql);
     $stmt->bindParam(':email', $_POST['email']);
@@ -16,6 +48,7 @@
     } else {
       $message = 'Lo sentimos, debe haber habido un problema al crear su cuenta';
     }
+    */
   }
 ?>
 <!DOCTYPE html>

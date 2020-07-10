@@ -17,11 +17,15 @@
 
     if (count($results) > 0 && password_verify($_POST['password'], $results['password'])) {
       $_SESSION['user_id'] = $results['id'];
-      header("Location: index.php");
+      header("Location: camposHospital.php");
+      //header("Location: index.php");
+
     } else {
       $message = 'Sorry, those credentials do not match';
     }
   }
+
+  
 
 ?>
 
@@ -50,3 +54,4 @@
     </form>
   </body>
 </html>
+ 
