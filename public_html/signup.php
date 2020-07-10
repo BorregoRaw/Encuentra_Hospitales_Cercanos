@@ -34,11 +34,13 @@
       <p> <?= $message ?></p>
     <?php endif; ?>
 
-    <h1>Regístrate</h1>
-    <span>o <a href="login.php">Login</a></span>
+    <h1>Regístro Zona Exclusiva para Establecimientos de Salud</h1>
+    <span> <a href="login.php">Login</a></span>
+    <span>o descubre <a href="http://www.dgis.salud.gob.mx/contenidos/intercambio/clues_gobmx.html">Que es CLUES</a></span>
+    <span>y donde <a href="http://salud.hidalgo.gob.mx/?page_id=9">encontrarlo</a></span>
 
     <form action="signup.php" method="POST">
-      <input name="email" type="text" placeholder="Introduce tu correo electronico">
+      <input name="email" type="text" placeholder="Introduce el CLUES de la organizacion">
       <input name="password" type="password" placeholder="Introduce tu contraseña">
       <input name="confirm_password" type="password" placeholder="Confirma tu contraseña">
       <input type="submit" value="Registrate">

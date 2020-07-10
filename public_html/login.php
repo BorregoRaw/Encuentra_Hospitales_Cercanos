@@ -44,7 +44,7 @@
     <span>o <a href="signup.php">Regístrate</a></span>
 
     <form action="login.php" method="POST">
-      <input name="email" type="text" placeholder="Introduce tu correo " required> 
+      <input name="email" type="text" placeholder="Introduce CLUES del establecimeinto" required> 
       <input name="password" type="password" placeholder="Introduce tu contraseña" required>
       <input type="submit" value="Ingresa">
     </form>

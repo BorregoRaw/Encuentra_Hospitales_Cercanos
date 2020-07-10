@@ -41,9 +41,19 @@
       <a href="signup.php">Registrate</a>
       
       
-      <h2>itesa autosave 2</h2>
+      <h2> </h2>
     <?php endif; ?>
-    
+      
+      
+      <h2>Para que es esta pagina</h2>
+
+      <div style="color: #000; font-style: italic">
+
+        <p>Esta pagina esta consebida para conocer los hospitales cercanos ademas de el cupo total, de los hospitales, esto con fin de evitar visitar lugares donde se anteinde infectados por COVID 19</p>
+
+        <p>Ademas de que cada hospital pude mostrar los servicios que puede ofrecer y para los que esta equipado, esto basado en el sistema de atencion TRIAGE por el Instituto Mexicano del Seguro Social</p>
+
+      </div>
 
   </body>
 </html>
