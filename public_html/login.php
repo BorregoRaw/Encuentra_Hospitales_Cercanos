@@ -20,8 +20,12 @@
       header("Location: camposHospital.php");
       //header("Location: index.php");
 
+      echo '<script> alert("ingreso"); </script>';
+
     } else {
       $message = 'Sorry, those credentials do not match';
+
+      echo '<script> alert("NONO"); </script>';
     }
   }
 
