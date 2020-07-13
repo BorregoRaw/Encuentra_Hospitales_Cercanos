@@ -37,9 +37,9 @@
     <?php else: ?>
       <h1>Porfavor Logeate o Registrate</h1>
 
-      <a href="login.php">Logeate </a> o
-      <a href="signup.php">Registrate</a>
-      
+      <a href="login.php">Logeate </a> , 
+      <a href="signup.php">Registrate como hospital</a> o 
+      <a href="solicitarCita.php">Solicita una Cita</a>
       
       <h2> </h2>
     <?php endif; ?>

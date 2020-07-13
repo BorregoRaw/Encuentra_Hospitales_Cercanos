@@ -21,13 +21,8 @@
 
 
   ///entra submit
-  if (!empty($_POST['nombre']) && !empty($_POST['tipoServicio']) && !empty($_POST['direccion']) && !empty($_POST['cupo']) ) {
-    /*
-    $records = $conn->prepare('SELECT id, email, password FROM users WHERE email = :email');
-    $records->bindParam(':email', $_POST['email']);
-    $records->execute();
-    $results = $records->fetch(PDO::FETCH_ASSOC);
-    */
+  if (!empty($_POST['nombre']) && !empty($_POST['tipoServicio']) && !empty($_POST['direccion']) && isset($_POST['cupo']) ) {
+
     $message = ''; 
 
     ///////////////
@@ -132,9 +127,10 @@
 
       </select>
 
-
+      
       <input name = "direccion" type = "text" placeholder = "Escribe la direccion del hospital" required>
-      <input name = "cupo" type = "text" placeholder = "Anota el cupo total del centro" required>
+      <input name = "cupo" type = "number" placeholder = "Anota el cupo total del centro" required>
+      <br><br>
       <input type = "submit" value = "Ingresa los datos">
 
     </form>

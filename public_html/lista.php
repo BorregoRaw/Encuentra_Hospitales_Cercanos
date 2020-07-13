@@ -85,7 +85,7 @@
           foreach ($results as $hospital) {
             
             //print_r($hospital['email']);
-            echo'<tr> <td>'.$hospital['email'].'</td></tr>';
+            //echo'<tr> <td>'.$hospital['email'].'</td></tr>';
             //
             $records = $conn->prepare('SELECT  nombre, tipoServicio, direccion, cupo FROM infohospitales WHERE clues = :clues');
             $records->bindParam(':clues', $hospital['email']);
