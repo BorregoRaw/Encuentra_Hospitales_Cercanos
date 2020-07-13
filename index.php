@@ -35,7 +35,7 @@
         Salir
       </a>
     <?php else: ?>
-      <h1>Porfavor Logeate o Registrate</h1>
+      <h1>Porfavor Logeate o Registrate: </h1>
 
       <a href="login.php">Logeate </a> , 
       <a href="signup.php">Registrate como hospital</a> o 
