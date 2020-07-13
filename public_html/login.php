@@ -17,7 +17,7 @@
 
     if (count($results) > 0 && password_verify($_POST['password'], $results['password'])) {
       $_SESSION['user_id'] = $results['id'];
-      header("Location: http://google.com");
+      header("Location: https://encuentrahospitalescercanos.000webhostapp.com/camposHospital.php");
       
       //header("Location: camposHospital.php");
       
