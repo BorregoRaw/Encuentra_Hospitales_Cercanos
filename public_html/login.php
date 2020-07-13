@@ -17,7 +17,11 @@
 
     if (count($results) > 0 && password_verify($_POST['password'], $results['password'])) {
       $_SESSION['user_id'] = $results['id'];
-      header("Location: camposHospital.php");
+      header("Location: http://google.com");
+      
+      //header("Location: camposHospital.php");
+      
+      
       //header("Location: index.php");
 
       echo '<script> alert("ingreso"); </script>';
